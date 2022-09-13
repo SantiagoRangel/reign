@@ -1,17 +1,19 @@
 import React from 'react'
-import NewsCardsSection from './components/news-cards-section/news-cards-section'
-import SectionSelector from './components/section-selector/section-selector'
+import Header from './components/header/header'
+import styled from 'styled-components'
+import NewsPage from './components/news-page/news-page'
+
+const AppDiv = styled.div`
+	min-height: 100vh;
+	min-width: 100vw;
+`
 
 function App() {
 	return (
-		<div className='App'>
-			<SectionSelector />
-			<br />
-			<br />
-			<br />
-			<br /> <br /> <br />
-			<NewsCardsSection />
-		</div>
+		<AppDiv className='App'>
+			<Header />
+			<NewsPage />
+		</AppDiv>
 	)
 }
 

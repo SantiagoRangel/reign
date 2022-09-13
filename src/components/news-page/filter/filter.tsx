@@ -12,7 +12,7 @@ interface FilterProps {
 }
 
 const Main = styled.div`
-	margin: 0 0 50px 70px;
+	margin: 0 0 50px 170px;
 	@media (max-width: 600px) {
 		display: flex;
 		justify-content: center;

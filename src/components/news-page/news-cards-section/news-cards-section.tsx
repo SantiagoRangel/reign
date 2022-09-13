@@ -21,6 +21,7 @@ const CardsSectionDiv = styled(FlexBox)`
 	padding-bottom: 100px;
 	@media (max-width: 600px) {
 		flex-direction: row;
+		padding-top: 140px;
 	}
 `
 

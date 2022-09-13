@@ -10,7 +10,7 @@ interface SectionSelectorProps {
 }
 
 const SelectorDiv = styled(FlexBox)`
-	margin-bottom: 100px;
+	margin-bottom: 70px;
 	justify-content: center;
 	.selectorTabDiv:first-child {
 		border-radius: 3px 0 0 3px;

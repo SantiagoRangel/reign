@@ -13,6 +13,11 @@ interface FilterProps {
 
 const Main = styled.div`
 	margin: 0 0 50px 70px;
+	@media (max-width: 600px) {
+		display: flex;
+		justify-content: center;
+		margin: -30px 0 30px 0;
+	}
 `
 
 const FilterDiv = styled.div`
@@ -25,6 +30,9 @@ const FilterDiv = styled.div`
 	justify-content: space-between;
 	&:hover {
 		cursor: pointer;
+	}
+	@media (max-width: 600px) {
+		width: 140px;
 	}
 `
 const FilterText = styled.p`
@@ -42,6 +50,9 @@ const OptionsDiv = styled.div`
 	background-color: white;
 	&:hover {
 		cursor: pointer;
+	}
+	@media (max-width: 600px) {
+		margin-top: 33px;
 	}
 `
 

@@ -8,6 +8,7 @@ import reactImage from '../../assets/react.png'
 import vueImage from '../../assets/vue.png'
 import { FilterOptionInterface, StoryInterface } from '../../interfaces/interfaces'
 import { sections } from '../../interfaces/interfaces'
+
 const FETCH_URL = '/search_by_date?query='
 
 interface NewsPageProps {}
